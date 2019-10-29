@@ -141,6 +141,7 @@ class File extends Field
      */
     protected function preview()
     {
+        return 'http://223.4.64.251/wskxoss/spstp/file/2019/10/29/5db82375299de1572348789.png';
         return $this->objectUrl($this->value);
     }
 
